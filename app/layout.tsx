@@ -28,11 +28,20 @@ export const metadata: Metadata = {
     title: 'Shehzad Ali — Python Backend & GenAI Engineer',
     description: 'Senior Software Engineer with 7+ years building scalable backend systems and AI-powered applications.',
     siteName: 'Shehzad Ali Portfolio',
+    images: [
+      {
+        url: '/api/og',
+        width: 1200,
+        height: 630,
+        alt: 'Shehzad Ali — Python Backend & GenAI Engineer',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Shehzad Ali — Python Backend & GenAI Engineer',
     description: 'Senior Software Engineer with 7+ years building scalable backend systems and AI-powered applications.',
+    images: ['/api/og'],
   },
   robots: { index: true, follow: true },
 }
