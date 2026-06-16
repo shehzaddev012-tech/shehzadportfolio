@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Shehzad Ali', url: 'https://github.com/shehzad-official' }],
   creator: 'Shehzad Ali',
-  metadataBase: new URL('https://shehzad-ali.vercel.app'),
+  metadataBase: new URL('https://shehzadportfolio.vercel.app'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'Shehzad Ali Portfolio',
     images: [
       {
-        url: '/api/og',
+        url: 'https://shehzadportfolio.vercel.app/api/og',
         width: 1200,
         height: 630,
         alt: 'Shehzad Ali — Python Backend & GenAI Engineer',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Shehzad Ali — Python Backend & GenAI Engineer',
     description: 'Senior Software Engineer with 7+ years building scalable backend systems and AI-powered applications.',
-    images: ['/api/og'],
+    images: ['https://shehzadportfolio.vercel.app/api/og'],
   },
   robots: { index: true, follow: true },
 }
