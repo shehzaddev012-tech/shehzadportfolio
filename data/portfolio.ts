@@ -171,7 +171,7 @@ export const personalInfo = {
   email: 'shehzaddev012@gmail.com',
   phone: '+92 325 5938122',
   location: 'Lahore, Pakistan — Open to Remote',
-  linkedin: 'https://linkedin.com/in/shehzad-ali-dev',
+  linkedin: 'https://www.linkedin.com/in/shehzad-ali-senior-software-engineer',
   github: 'https://github.com/shehzad-official',
   typingTitles: [
     'Python Backend Engineer',
