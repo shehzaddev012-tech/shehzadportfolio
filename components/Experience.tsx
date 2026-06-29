@@ -19,7 +19,7 @@ export default function Experience() {
           <span className="section-chip">Work History</span>
           <h2 className="text-3xl font-bold text-heading accent-line">Professional Experience</h2>
           <p className="text-sm text-text-body mt-6 max-w-lg">
-            7+ years shipping production systems across the UK, France, and Pakistan.
+            3+ years shipping production systems across the UK, France, and Pakistan.
           </p>
         </motion.div>
 

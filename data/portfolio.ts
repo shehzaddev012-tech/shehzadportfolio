@@ -28,8 +28,8 @@ export interface StatItem {
 }
 
 export const stats: StatItem[] = [
-  { value: '7+', numericValue: 7, suffix: '+', label: 'Years of Experience' },
-  { value: '1M+', numericValue: 1, suffix: 'M+', label: 'API Requests / Day' },
+  { value: '3+', numericValue: 3, suffix: '+', label: 'Years of Experience' },
+  { value: '10k+', numericValue: 1, suffix: 'M+', label: 'API Requests / Day' },
   { value: '80%', numericValue: 80, suffix: '%', label: 'Faster Knowledge Lookup' },
   { value: '14', numericValue: 14, suffix: '', label: 'Engineers Led' },
 ]
@@ -85,8 +85,8 @@ export const topSkillBars = [
 export const experiences: ExperienceItem[] = [
   {
     id: 1,
-    role: 'Senior Full-Stack Engineer — AI & Intelligent Systems',
-    company: 'OCI-LAB',
+    role: 'Junior AI Engineer | Full-Stack Developer | GenAI & Cloud',
+    company: 'Softerio Solutions',
     period: 'Jul 2025 – Present',
     type: 'On-site · Pakistan',
     bullets: [
@@ -96,43 +96,19 @@ export const experiences: ExperienceItem[] = [
       'Containerized and deployed services on AWS with Docker, reducing API latency and infrastructure cost by 60%.',
     ],
   },
-  {
-    id: 2,
-    role: 'Senior Python Developer — Team Lead',
-    company: 'Grid Dynamics',
-    period: 'Jul 2022 – Jul 2025',
-    type: 'Remote · United Kingdom',
-    bullets: [
-      'Led a team of 14 backend and full-stack engineers, owning task assignment, code review, and engineering standards.',
-      'Architected high-performance FastAPI microservices handling 1M+ requests/day at 99.9% uptime.',
-      'Built Pandas-based data processing pipelines that reduced report generation time by 85%.',
-      'Mentored 6 junior developers while improving overall application performance and scalability.',
-    ],
-  },
-  {
-    id: 3,
-    role: 'Full-Stack Developer',
-    company: 'OCTO Technology',
-    period: 'Dec 2019 – Jul 2021',
-    type: 'Remote · France',
-    bullets: [
-      'Built and maintained REST APIs with Django, Flask, and FastAPI powering production features.',
-      'Developed responsive React.js interfaces and reusable components, improving application performance by 75%.',
-      'Optimized PostgreSQL queries for high-traffic endpoints.',
-    ],
-  },
-  {
-    id: 4,
-    role: 'Full-Stack Developer',
-    company: 'Systems Limited',
-    period: 'Nov 2018 – Nov 2019',
-    type: 'On-site · Pakistan',
-    bullets: [
-      'Built full web applications with React.js, Node.js, and Express.',
-      'Designed REST APIs and JWT authentication systems.',
-      'Worked with MongoDB/MySQL in Agile, Git-based workflows.',
-    ],
-  },
+ {
+  id: 2,
+  role: 'Full Stack Developer',
+  company: 'OCI LAB',
+  period: 'Jan 2023 – Jul 2025',
+  type: 'Remote · Pakistan',
+  bullets: [
+    'Developed and maintained scalable full-stack web applications using React.js, Node.js, and MongoDB.',
+    'Built and integrated RESTful APIs to enable seamless communication between frontend and backend systems.',
+    'Implemented AI-powered features and LLM integrations to enhance application automation and user experience.',
+    'Collaborated with cross-functional teams to optimize application performance, fix bugs, and deliver new features.',
+  ]
+}
 ]
 
 export const featuredProjects: FeaturedProject[] = [
@@ -167,23 +143,22 @@ export const personalInfo = {
   title: 'Python Backend & GenAI Engineer',
   tagline: 'Building scalable AI-powered systems that actually ship.',
   summary:
-    'Senior Software Engineer with 7+ years building scalable backend systems and AI-powered applications. Specialist in Python and FastAPI, with production experience designing RAG pipelines, LLM integrations, and AI agents using LangChain and vector databases. Strong full-stack capability (React/Next.js) and a track record of shipping containerized services to AWS for distributed, remote-first teams across the UK and Europe.',
+    'AI Engineer and Full-Stack Developer specializing in scalable web applications and Generative AI solutions. Experienced in Python, MERN stack, LLM integrations, RAG pipelines, and cloud deployment. Focused on building intelligent products, automation workflows, and high-performance systems that deliver real business value.',
   email: 'shehzaddev012@gmail.com',
   phone: '+92 325 5938122',
-  location: 'Lahore, Pakistan — Open to Remote',
+  location: 'Lahore, Pakistan — Open to Work',
   linkedin: 'https://www.linkedin.com/in/shehzad-ali-senior-software-engineer',
   github: 'https://github.com/shehzad-official',
   typingTitles: [
     'Python Backend Engineer',
     'GenAI Specialist',
     'FastAPI Expert',
-    'Team Lead',
   ],
 }
 
 export const education = {
   degree: 'BS, Computer Science',
   university: 'University of Management and Technology (UMT)',
-  period: '2014 – 2018',
+  period: '2020 – 2024',
   location: 'Lahore, Pakistan',
 }

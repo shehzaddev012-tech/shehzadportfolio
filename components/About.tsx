@@ -45,7 +45,8 @@ export default function About() {
         >
           <span className="section-chip">About Me</span>
           <h2 className="text-3xl font-bold text-heading accent-line">
-            Senior Engineer. AI Builder. Team Lead.
+            Full-Stack Developer | AI Engineer 
+
           </h2>
         </motion.div>
 

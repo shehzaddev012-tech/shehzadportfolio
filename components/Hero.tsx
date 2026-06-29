@@ -33,7 +33,7 @@ export default function Hero() {
         >
           <span className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-slate-400 border border-slate-700/80 bg-slate-800/50 backdrop-blur-sm px-4 py-2 rounded-full">
             <span className="w-1.5 h-1.5 rounded-full bg-success animate-pulse" aria-hidden="true" />
-            Available for Remote Opportunities
+            Available for new  Opportunities
           </span>
         </motion.div>
 
